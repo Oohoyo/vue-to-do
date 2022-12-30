@@ -44,7 +44,7 @@ export default {
       @keyup.enter="addTodo"
       v-model="inputValue"
     />
-    <button @click="addTodo">新增</button>
+    <button type="button" @click="addTodo">新增</button>
   </div>
 </template>
 
