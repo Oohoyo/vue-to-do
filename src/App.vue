@@ -34,9 +34,9 @@ export default {
 </script>
 
 <template>
-  <h1>待办事宜</h1>
   <div class="todo-container">
     <div class="todo-wrap">
+      <h2 style="text-align: center">待办事宜</h2>
       <InputBox :receive="receive" />
       <List
         :todoList="todoList"
